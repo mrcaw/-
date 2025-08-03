@@ -1,0 +1,193 @@
+	; Module start
+	.compiler_version	"TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler v1.1r8 Build 22011964"
+	.compiler_invocation	"ctc -f cc20772a --dep-file=Src/Userbuild/bpnn/src/tm_layers_O1.d -c99 --fp-model=2cFlnrSTz -D__CPU__=tc29xb -D__CPU_TC29XB__ --core=tc1.6.x -ID:\\\\Project\\\\Infineon\\\\LQ_297_IMU\\\\Src -ID:\\\\Project\\\\Infineon\\\\LQ_297_IMU\\\\Src\\\\APP\\\\IMU -ID:\\\\Project\\\\Infineon\\\\LQ_297_IMU\\\\Src\\\\Driver\\\\inc -ID:\\\\Project\\\\Infineon\\\\LQ_297_IMU\\\\Src\\\\APP\\\\inc -ID:\\\\Project\\\\Infineon\\\\LQ_297_IMU\\\\Src\\\\APP\\\\Display -ID:\\\\Project\\\\Infineon\\\\LQ_297_IMU\\\\Main -ID:\\\\Project\\\\Infineon\\\\LQ_297_IMU\\\\Src\\\\APP -ID:\\\\Project\\\\Infineon\\\\LQ_297_IMU\\\\Src\\\\Core -ID:\\\\Project\\\\Infineon\\\\LQ_297_IMU\\\\Src\\\\Driver -ID:\\\\Project\\\\Infineon\\\\LQ_297_IMU\\\\Src\\\\User -ID:\\\\Project\\\\Infineon\\\\LQ_297_IMU\\\\Src\\\\Userbuild -I../ -I../Configurations -I../Libraries -I../Libraries/Infra -I../Libraries/Infra/Platform -I../Libraries/Infra/Platform/Tricore -I../Libraries/Infra/Platform/Tricore/Compilers -I../Libraries/Infra/Sfr -I../Libraries/Infra/Sfr/TC29B -I../Libraries/Infra/Sfr/TC29B/_Reg -I../Libraries/Service -I../Libraries/Service/CpuGeneric -I../Libraries/Service/CpuGeneric/If -I../Libraries/Service/CpuGeneric/If/Ccu6If -I../Libraries/Service/CpuGeneric/StdIf -I../Libraries/Service/CpuGeneric/SysSe -I../Libraries/Service/CpuGeneric/SysSe/Bsp -I../Libraries/Service/CpuGeneric/SysSe/Math -I../Libraries/Service/CpuGeneric/_Utilities -I../Libraries/iLLD -I../Libraries/iLLD/TC29B -I../Libraries/iLLD/TC29B/Tricore -I../Libraries/iLLD/TC29B/Tricore/Asclin -I../Libraries/iLLD/TC29B/Tricore/Asclin/Asc -I../Libraries/iLLD/TC29B/Tricore/Asclin/Spi -I../Libraries/iLLD/TC29B/Tricore/Asclin/Std -I../Libraries/iLLD/TC29B/Tricore/Ccu6 -I../Libraries/iLLD/TC29B/Tricore/Ccu6/Std -I../Libraries/iLLD/TC29B/Tricore/Ccu6/Timer -I../Libraries/iLLD/TC29B/Tricore/Cpu -I../Libraries/iLLD/TC29B/Tricore/Cpu/CStart -I../Libraries/iLLD/TC29B/Tricore/Cpu/Irq -I../Libraries/iLLD/TC29B/Tricore/Cpu/Std -I../Libraries/iLLD/TC29B/Tricore/Cpu/Trap -I../Libraries/iLLD/TC29B/Tricore/Dma -I../Libraries/iLLD/TC29B/Tricore/Dma/Dma -I../Libraries/iLLD/TC29B/Tricore/Dma/Std -I../Libraries/iLLD/TC29B/Tricore/Flash -I../Libraries/iLLD/TC29B/Tricore/Flash/Std -I../Libraries/iLLD/TC29B/Tricore/Gpt12 -I../Libraries/iLLD/TC29B/Tricore/Gpt12/Std -I../Libraries/iLLD/TC29B/Tricore/Gtm -I../Libraries/iLLD/TC29B/Tricore/Gtm/Atom -I../Libraries/iLLD/TC29B/Tricore/Gtm/Atom/Pwm -I../Libraries/iLLD/TC29B/Tricore/Gtm/Std -I../Libraries/iLLD/TC29B/Tricore/Gtm/Tim -I../Libraries/iLLD/TC29B/Tricore/Gtm/Tim/In -I../Libraries/iLLD/TC29B/Tricore/Gtm/Tom -I../Libraries/iLLD/TC29B/Tricore/Gtm/Tom/Pwm -I../Libraries/iLLD/TC29B/Tricore/Mtu -I../Libraries/iLLD/TC29B/Tricore/Mtu/Std -I../Libraries/iLLD/TC29B/Tricore/Port -I../Libraries/iLLD/TC29B/Tricore/Port/Std -I../Libraries/iLLD/TC29B/Tricore/Qspi -I../Libraries/iLLD/TC29B/Tricore/Qspi/SpiMaster -I../Libraries/iLLD/TC29B/Tricore/Qspi/Std -I../Libraries/iLLD/TC29B/Tricore/Scu -I../Libraries/iLLD/TC29B/Tricore/Scu/Std -I../Libraries/iLLD/TC29B/Tricore/Src -I../Libraries/iLLD/TC29B/Tricore/Src/Std -I../Libraries/iLLD/TC29B/Tricore/Stm -I../Libraries/iLLD/TC29B/Tricore/Stm/Std -I../Libraries/iLLD/TC29B/Tricore/Vadc -I../Libraries/iLLD/TC29B/Tricore/Vadc/Adc -I../Libraries/iLLD/TC29B/Tricore/Vadc/Std -I../Libraries/iLLD/TC29B/Tricore/_Impl -I../Libraries/iLLD/TC29B/Tricore/_Lib -I../Libraries/iLLD/TC29B/Tricore/_Lib/DataHandling -I../Libraries/iLLD/TC29B/Tricore/_PinMap -ID:\\\\Project\\\\Infineon\\\\LQ_297_IMU\\\\Src\\\\Userbuild\\\\bpnn -ID:\\\\Project\\\\Infineon\\\\LQ_297_IMU\\\\Src\\\\Userbuild\\\\bpnn\\\\src -ID:\\\\Project\\\\Infineon\\\\LQ_297_IMU\\\\Src\\\\Userbuild\\\\bpnn\\\\include -g2 -w544 -w557 -t4 --language=+volatile -N0 -O0 -Y0 -Z0 --compact-max-size=200 --misrac-version=2004 -o Src/Userbuild/bpnn/src/tm_layers_O1.src ../Src/Userbuild/bpnn/src/tm_layers_O1.c"
+	.compiler_name		"ctc"
+	;source	'../Src/Userbuild/bpnn/src/tm_layers_O1.c'
+
+	
+$TC16X
+	
+	.sdecl	'.debug_info',debug
+	.sect	'.debug_info'
+.L3:
+	.word	1156
+	.half	3
+	.word	.L4
+	.byte	4
+.L2:
+	.byte	1
+	.byte	'../Src/Userbuild/bpnn/src/tm_layers_O1.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'D:\\Project\\Infineon\\LQ_297_IMU\\Debug\\',0,12,1
+	.word	.L5
+	.byte	2
+	.byte	'short int',0,2,5,3
+	.byte	'__wchar_t',0,1,1,1
+	.word	174
+	.byte	2
+	.byte	'unsigned int',0,4,7,3
+	.byte	'__size_t',0,1,1,1
+	.word	205
+	.byte	4,1,5
+	.word	238
+	.byte	3
+	.byte	'__codeptr',0,1,1,1
+	.word	240
+	.byte	2
+	.byte	'int',0,4,5,3
+	.byte	'__intptr_t',0,1,1,1
+	.word	263
+	.byte	3
+	.byte	'__uintptr_t',0,1,1,1
+	.word	205
+	.byte	2
+	.byte	'char',0,1,6,3
+	.byte	'int8_t',0,2,241,1,41
+	.word	309
+	.byte	2
+	.byte	'unsigned char',0,1,8,3
+	.byte	'uint8_t',0,2,242,1,41
+	.word	333
+	.byte	2
+	.byte	'unsigned short int',0,2,7,3
+	.byte	'uint16_t',0,2,246,1,41
+	.word	367
+	.byte	3
+	.byte	'int32_t',0,2,253,1,41
+	.word	263
+	.byte	3
+	.byte	'uint32_t',0,2,254,1,41
+	.word	205
+	.byte	3
+	.byte	'_iob_flag_t',0,3,82,25
+	.word	367
+	.byte	3
+	.byte	'mtype_t',0,4,41,21
+	.word	309
+	.byte	3
+	.byte	'zptype_t',0,4,45,21
+	.word	263
+	.byte	2
+	.byte	'float',0,4,4,3
+	.byte	'sctype_t',0,4,95,15
+	.word	495
+	.byte	6,4,99,9,1,7
+	.byte	'TM_OK',0,0,7
+	.byte	'TM_ERR',0,1,7
+	.byte	'TM_ERR_MAGIC',0,2,7
+	.byte	'TM_ERR_UNSUPPORT',0,3,7
+	.byte	'TM_ERR_OOM',0,4,7
+	.byte	'TM_ERR_LAYERTYPE',0,5,7
+	.byte	'TM_ERR_DIMS',0,6,7
+	.byte	'TM_ERR_TODO',0,7,7
+	.byte	'TM_ERR_MDLTYPE',0,8,7
+	.byte	'TM_ERR_KSIZE',0,9,0,3
+	.byte	'tm_err_t',0,4,110,2
+	.word	521
+	.byte	8,8
+	.word	367
+	.byte	9,3,0,8,28
+	.word	333
+	.byte	9,27,0,8,64
+	.word	333
+	.byte	9,63,0,10,4,151,1,9,128,1,11
+	.byte	'magic',0
+	.word	205
+	.byte	4,2,35,0,11
+	.byte	'mdl_type',0
+	.word	333
+	.byte	1,2,35,4,11
+	.byte	'out_deq',0
+	.word	333
+	.byte	1,2,35,5,11
+	.byte	'input_cnt',0
+	.word	367
+	.byte	2,2,35,6,11
+	.byte	'output_cnt',0
+	.word	367
+	.byte	2,2,35,8,11
+	.byte	'layer_cnt',0
+	.word	367
+	.byte	2,2,35,10,11
+	.byte	'buf_size',0
+	.word	205
+	.byte	4,2,35,12,11
+	.byte	'sub_size',0
+	.word	205
+	.byte	4,2,35,16,11
+	.byte	'in_dims',0
+	.word	687
+	.byte	8,2,35,20,11
+	.byte	'out_dims',0
+	.word	687
+	.byte	8,2,35,28,11
+	.byte	'reserve',0
+	.word	696
+	.byte	28,2,35,36,11
+	.byte	'layers_body',0
+	.word	705
+	.byte	64,2,35,64,0,3
+	.byte	'tm_mdlbin_t',0,4,164,1,2
+	.word	714
+	.byte	10,4,190,1,9,48,11
+	.byte	'type',0
+	.word	367
+	.byte	2,2,35,0,11
+	.byte	'is_out',0
+	.word	367
+	.byte	2,2,35,2,11
+	.byte	'size',0
+	.word	205
+	.byte	4,2,35,4,11
+	.byte	'in_oft',0
+	.word	205
+	.byte	4,2,35,8,11
+	.byte	'out_oft',0
+	.word	205
+	.byte	4,2,35,12,11
+	.byte	'in_dims',0
+	.word	687
+	.byte	8,2,35,16,11
+	.byte	'out_dims',0
+	.word	687
+	.byte	8,2,35,24,11
+	.byte	'in_s',0
+	.word	495
+	.byte	4,2,35,32,11
+	.byte	'in_zp',0
+	.word	263
+	.byte	4,2,35,36,11
+	.byte	'out_s',0
+	.word	495
+	.byte	4,2,35,40,11
+	.byte	'out_zp',0
+	.word	263
+	.byte	4,2,35,44,0,3
+	.byte	'tml_head_t',0,4,204,1,2
+	.word	960
+	.byte	0
+	.sdecl	'.debug_abbrev',debug
+	.sect	'.debug_abbrev'
+.L4:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,16,6,0,0,2,36,0,3,8,11,15,62,15,0,0,3,22,0,3,8,58,15,59,15,57,15
+	.byte	73,19,0,0,4,21,0,54,15,0,0,5,15,0,73,19,0,0,6,4,1,58,15,59,15,57,15,11,15,0,0,7,40,0,3,8,28,13,0,0,8,1
+	.byte	1,11,15,73,19,0,0,9,33,0,47,15,0,0,10,19,1,58,15,59,15,57,15,11,15,0,0,11,13,0,3,8,73,19,11,15,56,9,0
+	.byte	0,0
+	.sdecl	'.debug_line',debug
+	.sect	'.debug_line'
+.L5:
+	.word	.L7-.L6
+.L6:
+	.half	3
+	.word	.L9-.L8
+.L8:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1
+	.byte	'D:\\IDE\\Infineon\\AURIX-Studio-1.10.2\\AURIX-Studio-1.10.6\\tools\\Compilers\\Tasking_1.1r8\\ctc\\include\\',0
+	.byte	'D:\\\\Project\\\\Infineon\\\\LQ_297_IMU\\\\Src\\\\Userbuild\\\\bpnn\\\\include',0,0
+	.byte	'../Src/Userbuild/bpnn/src/tm_layers_O1.c',0,0,0,0
+	.byte	'stdint.h',0,1,0,0
+	.byte	'stdio.h',0,1,0,0
+	.byte	'tinymaix.h',0,2,0,0,0
+.L9:
+.L7:
+	; Module end

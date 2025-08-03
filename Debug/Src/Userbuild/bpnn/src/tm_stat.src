@@ -1,0 +1,1749 @@
+	; Module start
+	.compiler_version	"TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler v1.1r8 Build 22011964"
+	.compiler_invocation	"ctc -f cc7164a --dep-file=Src/Userbuild/bpnn/src/tm_stat.d -c99 --fp-model=2cFlnrSTz -D__CPU__=tc29xb -D__CPU_TC29XB__ --core=tc1.6.x -ID:\\\\Project\\\\Infineon\\\\LQ_297_IMU\\\\Src -ID:\\\\Project\\\\Infineon\\\\LQ_297_IMU\\\\Src\\\\APP\\\\IMU -ID:\\\\Project\\\\Infineon\\\\LQ_297_IMU\\\\Src\\\\Driver\\\\inc -ID:\\\\Project\\\\Infineon\\\\LQ_297_IMU\\\\Src\\\\APP\\\\inc -ID:\\\\Project\\\\Infineon\\\\LQ_297_IMU\\\\Src\\\\APP\\\\Display -ID:\\\\Project\\\\Infineon\\\\LQ_297_IMU\\\\Main -ID:\\\\Project\\\\Infineon\\\\LQ_297_IMU\\\\Src\\\\APP -ID:\\\\Project\\\\Infineon\\\\LQ_297_IMU\\\\Src\\\\Core -ID:\\\\Project\\\\Infineon\\\\LQ_297_IMU\\\\Src\\\\Driver -ID:\\\\Project\\\\Infineon\\\\LQ_297_IMU\\\\Src\\\\User -ID:\\\\Project\\\\Infineon\\\\LQ_297_IMU\\\\Src\\\\Userbuild -I../ -I../Configurations -I../Libraries -I../Libraries/Infra -I../Libraries/Infra/Platform -I../Libraries/Infra/Platform/Tricore -I../Libraries/Infra/Platform/Tricore/Compilers -I../Libraries/Infra/Sfr -I../Libraries/Infra/Sfr/TC29B -I../Libraries/Infra/Sfr/TC29B/_Reg -I../Libraries/Service -I../Libraries/Service/CpuGeneric -I../Libraries/Service/CpuGeneric/If -I../Libraries/Service/CpuGeneric/If/Ccu6If -I../Libraries/Service/CpuGeneric/StdIf -I../Libraries/Service/CpuGeneric/SysSe -I../Libraries/Service/CpuGeneric/SysSe/Bsp -I../Libraries/Service/CpuGeneric/SysSe/Math -I../Libraries/Service/CpuGeneric/_Utilities -I../Libraries/iLLD -I../Libraries/iLLD/TC29B -I../Libraries/iLLD/TC29B/Tricore -I../Libraries/iLLD/TC29B/Tricore/Asclin -I../Libraries/iLLD/TC29B/Tricore/Asclin/Asc -I../Libraries/iLLD/TC29B/Tricore/Asclin/Spi -I../Libraries/iLLD/TC29B/Tricore/Asclin/Std -I../Libraries/iLLD/TC29B/Tricore/Ccu6 -I../Libraries/iLLD/TC29B/Tricore/Ccu6/Std -I../Libraries/iLLD/TC29B/Tricore/Ccu6/Timer -I../Libraries/iLLD/TC29B/Tricore/Cpu -I../Libraries/iLLD/TC29B/Tricore/Cpu/CStart -I../Libraries/iLLD/TC29B/Tricore/Cpu/Irq -I../Libraries/iLLD/TC29B/Tricore/Cpu/Std -I../Libraries/iLLD/TC29B/Tricore/Cpu/Trap -I../Libraries/iLLD/TC29B/Tricore/Dma -I../Libraries/iLLD/TC29B/Tricore/Dma/Dma -I../Libraries/iLLD/TC29B/Tricore/Dma/Std -I../Libraries/iLLD/TC29B/Tricore/Flash -I../Libraries/iLLD/TC29B/Tricore/Flash/Std -I../Libraries/iLLD/TC29B/Tricore/Gpt12 -I../Libraries/iLLD/TC29B/Tricore/Gpt12/Std -I../Libraries/iLLD/TC29B/Tricore/Gtm -I../Libraries/iLLD/TC29B/Tricore/Gtm/Atom -I../Libraries/iLLD/TC29B/Tricore/Gtm/Atom/Pwm -I../Libraries/iLLD/TC29B/Tricore/Gtm/Std -I../Libraries/iLLD/TC29B/Tricore/Gtm/Tim -I../Libraries/iLLD/TC29B/Tricore/Gtm/Tim/In -I../Libraries/iLLD/TC29B/Tricore/Gtm/Tom -I../Libraries/iLLD/TC29B/Tricore/Gtm/Tom/Pwm -I../Libraries/iLLD/TC29B/Tricore/Mtu -I../Libraries/iLLD/TC29B/Tricore/Mtu/Std -I../Libraries/iLLD/TC29B/Tricore/Port -I../Libraries/iLLD/TC29B/Tricore/Port/Std -I../Libraries/iLLD/TC29B/Tricore/Qspi -I../Libraries/iLLD/TC29B/Tricore/Qspi/SpiMaster -I../Libraries/iLLD/TC29B/Tricore/Qspi/Std -I../Libraries/iLLD/TC29B/Tricore/Scu -I../Libraries/iLLD/TC29B/Tricore/Scu/Std -I../Libraries/iLLD/TC29B/Tricore/Src -I../Libraries/iLLD/TC29B/Tricore/Src/Std -I../Libraries/iLLD/TC29B/Tricore/Stm -I../Libraries/iLLD/TC29B/Tricore/Stm/Std -I../Libraries/iLLD/TC29B/Tricore/Vadc -I../Libraries/iLLD/TC29B/Tricore/Vadc/Adc -I../Libraries/iLLD/TC29B/Tricore/Vadc/Std -I../Libraries/iLLD/TC29B/Tricore/_Impl -I../Libraries/iLLD/TC29B/Tricore/_Lib -I../Libraries/iLLD/TC29B/Tricore/_Lib/DataHandling -I../Libraries/iLLD/TC29B/Tricore/_PinMap -ID:\\\\Project\\\\Infineon\\\\LQ_297_IMU\\\\Src\\\\Userbuild\\\\bpnn -ID:\\\\Project\\\\Infineon\\\\LQ_297_IMU\\\\Src\\\\Userbuild\\\\bpnn\\\\src -ID:\\\\Project\\\\Infineon\\\\LQ_297_IMU\\\\Src\\\\Userbuild\\\\bpnn\\\\include -g2 -w544 -w557 -t4 --language=+volatile -N0 -O0 -Y0 -Z0 --compact-max-size=200 --misrac-version=2004 -o Src/Userbuild/bpnn/src/tm_stat.src ../Src/Userbuild/bpnn/src/tm_stat.c"
+	.compiler_name		"ctc"
+	;source	'../Src/Userbuild/bpnn/src/tm_stat.c'
+
+	
+$TC16X
+	
+	.sdecl	'.text.tm_stat.tm_stat',code,cluster('tm_stat')
+	.sect	'.text.tm_stat.tm_stat'
+	.align	2
+	
+	.global	tm_stat
+; Function tm_stat
+.L21:
+tm_stat:	.type	func
+	sub.a	a10,#80
+.L69:
+	mov.aa	a12,a4
+.L71:
+	movh.a	a4,#@his(.14.str)
+.L70:
+	lea	a4,[a4]@los(.14.str)
+	call	printf
+.L99:
+	ld.bu	d15,[a12]4
+	st.w	[a10],d15
+.L100:
+	ld.bu	d15,[a12]4
+.L101:
+	mul	d15,d15,#4
+.L102:
+	movh.a	a2,#@his(mdl_type_str)
+	lea	a2,[a2]@los(mdl_type_str)
+.L103:
+	addsc.a	a2,a2,d15,#0
+	ld.a	a2,[a2]
+	st.a	[a10]4,a2
+.L104:
+	movh.a	a4,#@his(.15.str)
+	lea	a4,[a4]@los(.15.str)
+	call	printf
+.L105:
+	ld.bu	d15,[a12]5
+	st.w	[a10],d15
+.L106:
+	movh.a	a4,#@his(.16.str)
+	lea	a4,[a4]@los(.16.str)
+	call	printf
+.L107:
+	ld.hu	d15,[a12]6
+	st.w	[a10],d15
+.L108:
+	ld.hu	d15,[a12]8
+	st.w	[a10]4,d15
+.L109:
+	ld.hu	d15,[a12]10
+	st.w	[a10]8,d15
+.L110:
+	movh.a	a4,#@his(.17.str)
+	lea	a4,[a4]@los(.17.str)
+	call	printf
+.L41:
+	ld.hu	d15,[a12]20
+	st.w	[a10],d15
+.L111:
+	ld.hu	d15,[a12]22
+	st.w	[a10]4,d15
+.L112:
+	ld.hu	d15,[a12]24
+	st.w	[a10]8,d15
+.L113:
+	ld.hu	d15,[a12]26
+	st.w	[a10]12,d15
+.L114:
+	movh.a	a4,#@his(.18.str)
+	lea	a4,[a4]@los(.18.str)
+	call	printf
+.L44:
+	ld.hu	d15,[a12]28
+	st.w	[a10],d15
+.L115:
+	ld.hu	d15,[a12]30
+	st.w	[a10]4,d15
+.L116:
+	ld.hu	d15,[a12]32
+	st.w	[a10]8,d15
+.L117:
+	ld.hu	d15,[a12]34
+	st.w	[a10]12,d15
+.L118:
+	movh.a	a4,#@his(.19.str)
+	lea	a4,[a4]@los(.19.str)
+	call	printf
+.L119:
+	ld.w	d15,[a12]12
+	st.w	[a10],d15
+.L120:
+	ld.w	d15,[a12]16
+	st.w	[a10]4,d15
+.L121:
+	movh.a	a4,#@his(.20.str)
+	lea	a4,[a4]@los(.20.str)
+	call	printf
+.L122:
+	movh.a	a4,#@his(.21.str)
+	lea	a4,[a4]@los(.21.str)
+	call	printf
+.L123:
+	movh.a	a4,#@his(.22.str)
+	lea	a4,[a4]@los(.22.str)
+	call	printf
+.L124:
+	ld.hu	d15,[a12]22
+	st.w	[a10],d15
+.L125:
+	ld.hu	d15,[a12]24
+	st.w	[a10]4,d15
+.L126:
+	ld.hu	d15,[a12]26
+	st.w	[a10]8,d15
+.L127:
+	ld.hu	d15,[a12]22
+.L128:
+	ld.hu	d0,[a12]24
+.L129:
+	mul	d15,d0
+.L130:
+	ld.hu	d0,[a12]26
+.L131:
+	mul	d15,d0
+.L132:
+	mul	d15,d15,#1
+.L133:
+	st.w	[a10]12,d15
+.L134:
+	movh.a	a4,#@his(.23.str)
+	lea	a4,[a4]@los(.23.str)
+	call	printf
+.L46:
+	mov	d9,#0
+.L72:
+	mov	d8,#0
+.L73:
+	lea	a15,[a12]64
+.L74:
+	mov	d10,#0
+.L75:
+	j	.L2
+.L3:
+	mov	d15,#71
+	st.w	[a10],d15
+	movh.a	a4,#@his(.24.str)
+	lea	a4,[a4]@los(.24.str)
+	call	printf
+	mov.d	d15,a15
+.L76:
+	mov.d	d0,a12
+.L78:
+	sub	d15,d0
+.L77:
+	st.w	[a10],d15
+	movh.a	a4,#@his(.25.str)
+	lea	a4,[a4]@los(.25.str)
+	call	printf
+.L79:
+	mov	d15,#72
+	st.w	[a10],d15
+	movh.a	a4,#@his(.24.str)
+	lea	a4,[a4]@los(.24.str)
+	call	printf
+	ld.hu	d15,[a15]0
+	st.w	[a10],d15
+	ld.hu	d15,[a15]2
+	st.w	[a10]4,d15
+	ld.w	d15,[a15]4
+	st.w	[a10]8,d15
+	ld.w	d15,[a15]8
+	st.w	[a10]12,d15
+	ld.w	d15,[a15]12
+	st.w	[a10]16,d15
+	ld.hu	d15,[a15]16
+	st.w	[a10]20,d15
+	ld.hu	d15,[a15]18
+	st.w	[a10]24,d15
+	ld.hu	d15,[a15]20
+	st.w	[a10]28,d15
+	ld.hu	d15,[a15]22
+	st.w	[a10]32,d15
+	ld.hu	d15,[a15]24
+	st.w	[a10]36,d15
+	ld.hu	d15,[a15]26
+	st.w	[a10]40,d15
+	ld.hu	d15,[a15]28
+	st.w	[a10]44,d15
+	ld.hu	d15,[a15]30
+	st.w	[a10]48,d15
+	ld.w	d4,[a15]32
+	call	__f_ftod
+	st.d	[a10]52,e2
+	ld.w	d15,[a15]36
+	st.w	[a10]60,d15
+	ld.w	d4,[a15]40
+	call	__f_ftod
+	st.d	[a10]64,e2
+	ld.w	d15,[a15]44
+	st.w	[a10]72,d15
+	movh.a	a4,#@his(.26.str)
+	lea	a4,[a4]@los(.26.str)
+	call	printf
+.L135:
+	ld.hu	d15,[a15]0
+.L136:
+	jge.u	d15,#7,.L4
+.L56:
+	ld.hu	d15,[a15]26
+.L137:
+	ld.hu	d0,[a15]28
+.L138:
+	mul	d15,d0
+.L139:
+	ld.hu	d0,[a15]30
+.L140:
+	mul	d11,d15,d0
+.L80:
+	ld.w	d15,[a15]4
+.L141:
+	ld.hu	d0,[a15]0
+.L142:
+	mul	d0,d0,#4
+.L143:
+	movh.a	a2,#@his(tml_headsize_tbl)
+	lea	a2,[a2]@los(tml_headsize_tbl)
+.L144:
+	addsc.a	a2,a2,d0,#0
+	ld.w	d0,[a2]
+.L145:
+	sub	d15,d0
+.L146:
+	add	d9,d15
+.L59:
+	ld.hu	d0,[a15]0
+.L147:
+	mov	d15,#0
+	jeq	d15,d0,.L5
+.L148:
+	mov	d15,#1
+	jeq	d15,d0,.L6
+.L149:
+	mov	d15,#2
+	jeq	d15,d0,.L7
+.L150:
+	mov	d15,#3
+	jeq	d15,d0,.L8
+.L151:
+	mov	d15,#5
+	jeq	d15,d0,.L9
+	j	.L10
+.L5:
+	ld.bu	d15,[a15]48
+.L152:
+	mul	d15,d11
+.L153:
+	ld.bu	d0,[a15]49
+.L154:
+	mul	d15,d0
+.L155:
+	ld.hu	d0,[a15]22
+.L156:
+	mul	d12,d15,d0
+.L81:
+	mov	d15,#85
+	st.w	[a10],d15
+	movh.a	a4,#@his(.24.str)
+	lea	a4,[a4]@los(.24.str)
+	call	printf
+	ld.bu	d15,[a15]48
+	st.w	[a10],d15
+	ld.bu	d15,[a15]49
+	st.w	[a10]4,d15
+	ld.bu	d15,[a15]50
+	st.w	[a10]8,d15
+	ld.bu	d15,[a15]51
+	st.w	[a10]12,d15
+	ld.bu	d15,[a15]52
+	st.w	[a10]16,d15
+	ld.bu	d15,[a15]53
+	st.w	[a10]20,d15
+	ld.hu	d15,[a15]54
+	st.w	[a10]24,d15
+	ld.bu	d15,[a15]56
+	st.w	[a10]28,d15
+	ld.bu	d15,[a15]57
+	st.w	[a10]32,d15
+	ld.bu	d15,[a15]58
+	st.w	[a10]36,d15
+	ld.bu	d15,[a15]59
+	st.w	[a10]40,d15
+	ld.w	d15,[a15]60
+	st.w	[a10]44,d15
+	ld.w	d15,[a15]68
+	st.w	[a10]48,d15
+	ld.w	d15,[a15]72
+	st.w	[a10]52,d15
+	ld.w	d15,[a15]76
+	st.w	[a10]56,d15
+	movh.a	a4,#@his(.27.str)
+	lea	a4,[a4]@los(.27.str)
+	call	printf
+.L157:
+	j	.L11
+.L6:
+	ld.hu	d12,[a15]18
+.L158:
+	ld.hu	d15,[a15]20
+.L159:
+	mul	d12,d15
+.L160:
+	ld.hu	d15,[a15]22
+.L82:
+	mul	d12,d15
+.L161:
+	j	.L12
+.L7:
+	ld.hu	d12,[a15]30
+.L162:
+	ld.hu	d15,[a15]22
+.L83:
+	mul	d12,d15
+.L163:
+	mov	d15,#96
+	st.w	[a10],d15
+	movh.a	a4,#@his(.24.str)
+	lea	a4,[a4]@los(.24.str)
+	call	printf
+	ld.w	d15,[a15]48
+	st.w	[a10],d15
+	ld.w	d15,[a15]52
+	st.w	[a10]4,d15
+	ld.w	d15,[a15]56
+	st.w	[a10]8,d15
+	movh.a	a4,#@his(.28.str)
+	lea	a4,[a4]@los(.28.str)
+	call	printf
+.L164:
+	j	.L13
+.L8:
+	ld.hu	d15,[a15]30
+.L165:
+	mul	d12,d15,#6
+.L84:
+	j	.L14
+.L9:
+	ld.bu	d15,[a15]48
+.L166:
+	mul	d15,d11
+.L167:
+	ld.bu	d0,[a15]49
+.L168:
+	mul	d15,d0
+.L169:
+	mul	d12,d15,#1
+.L85:
+	mov	d15,#105
+	st.w	[a10],d15
+	movh.a	a4,#@his(.24.str)
+	lea	a4,[a4]@los(.24.str)
+	call	printf
+	ld.bu	d15,[a15]48
+	st.w	[a10],d15
+	ld.bu	d15,[a15]49
+	st.w	[a10]4,d15
+	ld.bu	d15,[a15]50
+	st.w	[a10]8,d15
+	ld.bu	d15,[a15]51
+	st.w	[a10]12,d15
+	ld.bu	d15,[a15]52
+	st.w	[a10]16,d15
+	ld.bu	d15,[a15]53
+	st.w	[a10]20,d15
+	ld.hu	d15,[a15]54
+	st.w	[a10]24,d15
+	ld.bu	d15,[a15]56
+	st.w	[a10]28,d15
+	ld.bu	d15,[a15]57
+	st.w	[a10]32,d15
+	ld.bu	d15,[a15]58
+	st.w	[a10]36,d15
+	ld.bu	d15,[a15]59
+	st.w	[a10]40,d15
+	ld.w	d15,[a15]60
+	st.w	[a10]44,d15
+	ld.w	d15,[a15]68
+	st.w	[a10]48,d15
+	ld.w	d15,[a15]72
+	st.w	[a10]52,d15
+	ld.w	d15,[a15]76
+	st.w	[a10]56,d15
+	movh.a	a4,#@his(.29.str)
+	lea	a4,[a4]@los(.29.str)
+	call	printf
+.L170:
+	j	.L15
+.L10:
+	mov	d12,#0
+.L86:
+	j	.L16
+.L16:
+.L15:
+.L14:
+.L13:
+.L12:
+.L11:
+	add	d8,d12
+.L171:
+	st.w	[a10],d10
+.L172:
+	ld.hu	d15,[a15]0
+.L173:
+	mul	d15,d15,#4
+.L174:
+	movh.a	a2,#@his(tml_str_tbl)
+	lea	a2,[a2]@los(tml_str_tbl)
+.L175:
+	addsc.a	a2,a2,d15,#0
+	ld.a	a2,[a2]
+	st.a	[a10]4,a2
+.L176:
+	ld.hu	d15,[a15]26
+	st.w	[a10]8,d15
+.L177:
+	ld.hu	d15,[a15]28
+	st.w	[a10]12,d15
+.L178:
+	ld.hu	d15,[a15]30
+	st.w	[a10]16,d15
+.L179:
+	ld.w	d15,[a15]8
+	st.w	[a10]20,d15
+.L180:
+	ld.w	d15,[a15]12
+	st.w	[a10]24,d15
+.L181:
+	ld.w	d15,[a15]4
+.L182:
+	ld.hu	d0,[a15]0
+.L183:
+	mul	d0,d0,#4
+.L184:
+	movh.a	a2,#@his(tml_headsize_tbl)
+	lea	a2,[a2]@los(tml_headsize_tbl)
+.L185:
+	addsc.a	a2,a2,d0,#0
+	ld.w	d0,[a2]
+.L186:
+	sub	d15,d0
+	st.w	[a10]28,d15
+.L187:
+	mul	d15,d11,#1
+.L188:
+	st.w	[a10]32,d15
+.L189:
+	movh.a	a4,#@his(.30.str)
+	lea	a4,[a4]@los(.30.str)
+	call	printf
+.L190:
+	st.w	[a10],d12
+.L191:
+	movh.a	a4,#@his(.31.str)
+	lea	a4,[a4]@los(.31.str)
+	call	printf
+.L57:
+	j	.L17
+.L4:
+	mov	d2,#5
+.L192:
+	j	.L18
+.L17:
+	ld.w	d15,[a15]4
+.L193:
+	addsc.a	a15,a15,d15,#0
+.L53:
+	add	d10,#1
+.L2:
+	ld.hu	d15,[a12]10
+.L194:
+	jlt	d10,d15,.L3
+.L195:
+	mov	d4,d9
+.L87:
+	call	__d_itod
+.L88:
+	mov	e4,d3,d2
+.L196:
+	mov	d6,#0
+	mov	d7,#0
+	addih	d7,d7,#16528
+.L197:
+	call	__d_div
+	st.d	[a10]0,e2
+.L198:
+	mov	d4,d8
+.L89:
+	call	__d_itod
+.L90:
+	mov	d6,#0
+	mov.u	d7,#33920
+	addih	d7,d7,#16686
+.L199:
+	mov	e4,d3,d2
+	call	__d_div
+	st.d	[a10]8,e2
+.L200:
+	ld.w	d15,[a12]12
+.L201:
+	ld.w	d4,[a12]16
+.L202:
+	add	d4,d15
+	call	__d_uitod
+.L203:
+	mov	d6,#0
+	mov	d7,#0
+	addih	d7,d7,#16528
+.L204:
+	mov	e4,d3,d2
+	call	__d_div
+	st.d	[a10]16,e2
+.L205:
+	movh.a	a4,#@his(.32.str)
+	lea	a4,[a4]@los(.32.str)
+	call	printf
+.L206:
+	mov	d2,#0
+.L207:
+	j	.L19
+.L19:
+.L18:
+	ret
+.L38:
+	
+__tm_stat_function_end:
+	.size	tm_stat,__tm_stat_function_end-tm_stat
+.L30:
+	; End of function
+	
+	.sdecl	'.rodata.tm_stat..1.str',data,rom
+	.sect	'.rodata.tm_stat..1.str'
+.1.str:	.type	object
+	.size	.1.str,5
+	.byte	105,110,116,56
+	.space	1
+	.sdecl	'.rodata.tm_stat..2.str',data,rom
+	.sect	'.rodata.tm_stat..2.str'
+.2.str:	.type	object
+	.size	.2.str,6
+	.byte	105,110,116,49
+	.byte	54
+	.space	1
+	.sdecl	'.rodata.tm_stat..3.str',data,rom
+	.sect	'.rodata.tm_stat..3.str'
+.3.str:	.type	object
+	.size	.3.str,5
+	.byte	102,112,51,50
+	.space	1
+	.sdecl	'.rodata.tm_stat..4.str',data,rom
+	.sect	'.rodata.tm_stat..4.str'
+.4.str:	.type	object
+	.size	.4.str,5
+	.byte	102,112,49,54
+	.space	1
+	.sdecl	'.rodata.tm_stat..5.str',data,rom
+	.sect	'.rodata.tm_stat..5.str'
+.5.str:	.type	object
+	.size	.5.str,10
+	.byte	102,112,56,32,49,46,52,46
+	.byte	51
+	.space	1
+	.sdecl	'.rodata.tm_stat..6.str',data,rom
+	.sect	'.rodata.tm_stat..6.str'
+.6.str:	.type	object
+	.size	.6.str,10
+	.byte	102,112,56,32,49,46,53,46
+	.byte	50
+	.space	1
+	.sdecl	'.data.tm_stat.mdl_type_str',data,cluster('mdl_type_str')
+	.sect	'.data.tm_stat.mdl_type_str'
+	.align	4
+mdl_type_str:	.type	object
+	.size	mdl_type_str,24
+	.word	.1.str,.2.str,.3.str,.4.str
+	.word	.5.str,.6.str
+	.sdecl	'.rodata.tm_stat..7.str',data,rom
+	.sect	'.rodata.tm_stat..7.str'
+.7.str:	.type	object
+	.size	.7.str,7
+	.byte	67,111,110,118
+	.byte	50,68
+	.space	1
+	.sdecl	'.rodata.tm_stat..8.str',data,rom
+	.sect	'.rodata.tm_stat..8.str'
+.8.str:	.type	object
+	.size	.8.str,4
+	.byte	71,65,80
+	.space	1
+	.sdecl	'.rodata.tm_stat..9.str',data,rom
+	.sect	'.rodata.tm_stat..9.str'
+.9.str:	.type	object
+	.size	.9.str,3
+	.byte	70,67
+	.space	1
+	.sdecl	'.rodata.tm_stat..10.str',data,rom
+	.sect	'.rodata.tm_stat..10.str'
+.10.str:	.type	object
+	.size	.10.str,8
+	.byte	83,111,102,116
+	.byte	109,97,120
+	.space	1
+	.sdecl	'.rodata.tm_stat..11.str',data,rom
+	.sect	'.rodata.tm_stat..11.str'
+.11.str:	.type	object
+	.size	.11.str,8
+	.byte	82,101,115,104
+	.byte	97,112,101
+	.space	1
+	.sdecl	'.rodata.tm_stat..12.str',data,rom
+	.sect	'.rodata.tm_stat..12.str'
+.12.str:	.type	object
+	.size	.12.str,9
+	.byte	68,87,67,111,110,118,50,68
+	.space	1
+	.sdecl	'.rodata.tm_stat..13.str',data,rom
+	.sect	'.rodata.tm_stat..13.str'
+.13.str:	.type	object
+	.size	.13.str,4
+	.byte	65,68,68
+	.space	1
+	.sdecl	'.data.tm_stat.tml_str_tbl',data,cluster('tml_str_tbl')
+	.sect	'.data.tm_stat.tml_str_tbl'
+	.align	4
+tml_str_tbl:	.type	object
+	.size	tml_str_tbl,28
+	.word	.7.str,.8.str,.9.str,.10.str
+	.word	.11.str,.12.str,.13.str
+	.sdecl	'.rodata.tm_stat.tml_headsize_tbl',data,rom,cluster('tml_headsize_tbl')
+	.sect	'.rodata.tm_stat.tml_headsize_tbl'
+	.align	2
+tml_headsize_tbl:	.type	object
+	.size	tml_headsize_tbl,28
+	.word	80,48,64,48
+	.word	48,80,64
+	.sdecl	'.rodata.tm_stat..14.str',data,rom
+	.sect	'.rodata.tm_stat..14.str'
+.14.str:	.type	object
+	.size	.14.str,78
+	.byte	61,61,61,61,61,61,61,61
+	.byte	61,61,61,61,61,61,61,61
+	.byte	61,61,61,61,61,61,61,61
+	.byte	61,61,61,61,61,61,61,61
+	.byte	32,109,111,100,101,108,32,115
+	.byte	116,97,116,32,61,61,61,61
+	.byte	61,61,61,61,61,61,61,61
+	.byte	61,61,61,61,61,61,61,61
+	.byte	61,61,61,61,61,61,61,61
+	.byte	61,61,61,61
+	.byte	10
+	.space	1
+	.sdecl	'.rodata.tm_stat..15.str',data,rom
+	.sect	'.rodata.tm_stat..15.str'
+.15.str:	.type	object
+	.size	.15.str,19
+	.byte	109,100,108,95,116,121,112,101
+	.byte	61,37,100,32,40,37,115,41
+	.byte	41,10
+	.space	1
+	.sdecl	'.rodata.tm_stat..16.str',data,rom
+	.sect	'.rodata.tm_stat..16.str'
+.16.str:	.type	object
+	.size	.16.str,13
+	.byte	111,117,116,95,100,101,113,61
+	.byte	37,100,32,10
+	.space	1
+	.sdecl	'.rodata.tm_stat..17.str',data,rom
+	.sect	'.rodata.tm_stat..17.str'
+.17.str:	.type	object
+	.size	.17.str,43
+	.byte	105,110,112,117,116,95,99,110
+	.byte	116,61,37,100,44,32,111,117
+	.byte	116,112,117,116,95,99,110,116
+	.byte	61,37,100,44,32,108,97,121
+	.byte	101,114,95,99,110,116,61,37
+	.byte	100,10
+	.space	1
+	.sdecl	'.rodata.tm_stat..18.str',data,rom
+	.sect	'.rodata.tm_stat..18.str'
+.18.str:	.type	object
+	.size	.18.str,28
+	.byte	105,110,112,117,116,32,37,100
+	.byte	100,105,109,115,58,32,40,37
+	.byte	100,44,32,37,100,44,32,37
+	.byte	100,41,10
+	.space	1
+	.sdecl	'.rodata.tm_stat..19.str',data,rom
+	.sect	'.rodata.tm_stat..19.str'
+.19.str:	.type	object
+	.size	.19.str,29
+	.byte	111,117,116,112,117,116,32,37
+	.byte	100,100,105,109,115,58,32,40
+	.byte	37,100,44,32,37,100,44,32
+	.byte	37,100,41,10
+	.space	1
+	.sdecl	'.rodata.tm_stat..20.str',data,rom
+	.sect	'.rodata.tm_stat..20.str'
+.20.str:	.type	object
+	.size	.20.str,35
+	.byte	109,97,105,110,32,98,117,102
+	.byte	32,115,105,122,101,32,37,100
+	.byte	59,32,115,117,98,32,98,117
+	.byte	102,32,115,105,122,101,32,37
+	.byte	100,10
+	.space	1
+	.sdecl	'.rodata.tm_stat..21.str',data,rom
+	.sect	'.rodata.tm_stat..21.str'
+.21.str:	.type	object
+	.size	.21.str,61
+	.byte	47,47,78,111,116,101,58,32
+	.byte	80,65,82,65,77,32,105,115
+	.byte	32,108,97,121,101,114,32,112
+	.byte	97,114,97,109,32,115,105,122
+	.byte	101,44,32,105,110,99,108,117
+	.byte	100,101,32,97,108,105,103,110
+	.byte	32,112,97,100,100,105,110,103
+	.byte	13,10,13,10
+	.space	1
+	.sdecl	'.rodata.tm_stat..22.str',data,rom
+	.sect	'.rodata.tm_stat..22.str'
+.22.str:	.type	object
+	.size	.22.str,59
+	.byte	73,100,120,9,76,97,121,101
+	.byte	114,9,32,32,32,32,32,32
+	.byte	32,32,32,111,117,116,115,104
+	.byte	97,112,101,9,105,110,111,102
+	.byte	116,9,111,117,116,111,102,116
+	.byte	9,80,65,82,65,77,9,77
+	.byte	69,77,79,85,84,32,79,80
+	.byte	83,10
+	.space	1
+	.sdecl	'.rodata.tm_stat..23.str',data,rom
+	.sect	'.rodata.tm_stat..23.str'
+.23.str:	.type	object
+	.size	.23.str,48
+	.byte	45,45,45,9,73,110,112,117
+	.byte	116,32,32,32,32,9,37,51
+	.byte	100,44,37,51,100,44,37,51
+	.byte	100,9,45,32,32,32,9,48
+	.byte	32,32,32,32,9,48,32,9
+	.byte	37,108,100,32
+	.byte	9,48,10
+	.space	1
+	.sdecl	'.rodata.tm_stat..24.str',data,rom
+	.sect	'.rodata.tm_stat..24.str'
+.24.str:	.type	object
+	.size	.24.str,9
+	.byte	35,35,35,76,37,100,58,32
+	.space	1
+	.sdecl	'.rodata.tm_stat..25.str',data,rom
+	.sect	'.rodata.tm_stat..25.str'
+.25.str:	.type	object
+	.size	.25.str,15
+	.byte	98,111,100,121,32,111,102,116
+	.byte	32,61,32,37
+	.byte	100,10
+	.space	1
+	.sdecl	'.rodata.tm_stat..26.str',data,rom
+	.sect	'.rodata.tm_stat..26.str'
+.26.str:	.type	object
+	.size	.26.str,143
+	.byte	116,121,112,101,61,37,100,44
+	.byte	32,105,115,95,111,117,116,61
+	.byte	37,100,44,32,115,105,122,101
+	.byte	61,37,100,44,32,105,110,95
+	.byte	111,102,116,61,37,100,44,32
+	.byte	111,117,116,95,111,102,116,61
+	.byte	37,100,44,32,105,110,95,100
+	.byte	105,109,115,61,91,37,100,44
+	.byte	37,100,44,37,100,44,37,100
+	.byte	93,44,32,111,117,116,95,100
+	.byte	105,109,115,61,91,37,100,44
+	.byte	37,100,44,37,100,44,37,100
+	.byte	93,44,32,105,110,95,115,61
+	.byte	37,46,51,102,44,32,105,110
+	.byte	95,122,112,61,37,100,44,32
+	.byte	111,117,116,95,115,61,37,46
+	.byte	51,102,44,32,111,117,116,95
+	.byte	122,112,61,37
+	.byte	100,10
+	.space	1
+	.sdecl	'.rodata.tm_stat..27.str',data,rom
+	.sect	'.rodata.tm_stat..27.str'
+.27.str:	.type	object
+	.size	.27.str,117
+	.byte	67,111,110,118,50,100,58,32
+	.byte	107,119,61,37,100,44,32,107
+	.byte	104,61,37,100,44,32,115,119
+	.byte	61,37,100,44,32,115,104,61
+	.byte	37,100,44,32,100,119,61,37
+	.byte	100,44,32,100,104,61,37,100
+	.byte	44,32,97,99,116,61,37,100
+	.byte	44,32,112,97,100,61,91,37
+	.byte	100,44,37,100,44,37,100,44
+	.byte	37,100,93,44,32,100,109,117
+	.byte	108,61,37,100,44,32,119,115
+	.byte	95,111,102,116,61,37,100,44
+	.byte	32,119,95,111,102,116,61,37
+	.byte	100,44,32,98,95,111,102,116
+	.byte	61,37,100,10
+	.space	1
+	.sdecl	'.rodata.tm_stat..28.str',data,rom
+	.sect	'.rodata.tm_stat..28.str'
+.28.str:	.type	object
+	.size	.28.str,35
+	.byte	70,67,58,32,119,115,95,111
+	.byte	102,116,61,37,100,44,32,119
+	.byte	95,111,102,116,61,37,100,44
+	.byte	32,98,95,111,102,116,61,37
+	.byte	100,10
+	.space	1
+	.sdecl	'.rodata.tm_stat..29.str',data,rom
+	.sect	'.rodata.tm_stat..29.str'
+.29.str:	.type	object
+	.size	.29.str,119
+	.byte	68,87,67,111,110,118,50,100
+	.byte	58,32,107,119,61,37,100,44
+	.byte	32,107,104,61,37,100,44,32
+	.byte	115,119,61,37,100,44,32,115
+	.byte	104,61,37,100,44,32,100,119
+	.byte	61,37,100,44,32,100,104,61
+	.byte	37,100,44,32,97,99,116,61
+	.byte	37,100,44,32,112,97,100,61
+	.byte	91,37,100,44,37,100,44,37
+	.byte	100,44,37,100,93,44,32,100
+	.byte	109,117,108,61,37,100,44,32
+	.byte	119,115,95,111,102,116,61,37
+	.byte	100,44,32,119,95,111,102,116
+	.byte	61,37,100,44,32,98,95,111
+	.byte	102,116,61,37
+	.byte	100,10
+	.space	1
+	.sdecl	'.rodata.tm_stat..30.str',data,rom
+	.sect	'.rodata.tm_stat..30.str'
+.30.str:	.type	object
+	.size	.30.str,40
+	.byte	37,48,51,100,9,37,115,32
+	.byte	32,32,32,32,32,9,37,51
+	.byte	100,44,37,51,100,44,37,51
+	.byte	100,9,37,100,9,37,100,9
+	.byte	37,100,9,37
+	.byte	108,100,9
+	.space	1
+	.sdecl	'.rodata.tm_stat..31.str',data,rom
+	.sect	'.rodata.tm_stat..31.str'
+.31.str:	.type	object
+	.size	.31.str,5
+	.byte	37,100,13,10
+	.space	1
+	.sdecl	'.rodata.tm_stat..32.str',data,rom
+	.sect	'.rodata.tm_stat..32.str'
+.32.str:	.type	object
+	.size	.32.str,59
+	.byte	13,10,84,111,116,97,108,32
+	.byte	112,97,114,97,109,32,126,37
+	.byte	46,49,102,32,75,66,44,32
+	.byte	79,80,83,32,126,37,46,50
+	.byte	102,32,77,79,80,83,44,32
+	.byte	98,117,102,102,101,114,32,37
+	.byte	46,49,102,32,75,66,13,10
+	.byte	13,10
+	.space	1
+	.calls	'tm_stat','__f_ftod'
+	.calls	'tm_stat','__d_itod'
+	.calls	'tm_stat','__d_div'
+	.calls	'tm_stat','__d_uitod'
+	.calls	'tm_stat','printf'
+	.extern	printf
+	.extern	__printf_float
+	.extern	__printf_int
+	.extern	__f_ftod
+	.extern	__d_itod
+	.extern	__d_div
+	.extern	__d_uitod
+	.calls	'tm_stat','',80
+	.sdecl	'.debug_info',debug
+	.sect	'.debug_info'
+.L23:
+	.word	1599
+	.half	3
+	.word	.L24
+	.byte	4
+.L22:
+	.byte	1
+	.byte	'../Src/Userbuild/bpnn/src/tm_stat.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'D:\\Project\\Infineon\\LQ_297_IMU\\Debug\\',0,12,1
+	.word	.L25
+.L47:
+	.byte	2
+	.byte	'int',0,4,5,2
+	.byte	'char',0,1,6,3
+	.word	176
+	.byte	4
+	.word	184
+	.byte	5
+	.word	189
+	.byte	6
+	.byte	'printf',0,1,143,1,16
+	.word	169
+	.byte	1,1,1,1,7,1,143,1,38
+	.word	194
+	.byte	8,1,143,1,50,0
+.L37:
+	.byte	9,2,99,9,1,10
+	.byte	'TM_OK',0,0,10
+	.byte	'TM_ERR',0,1,10
+	.byte	'TM_ERR_MAGIC',0,2,10
+	.byte	'TM_ERR_UNSUPPORT',0,3,10
+	.byte	'TM_ERR_OOM',0,4,10
+	.byte	'TM_ERR_LAYERTYPE',0,5,10
+	.byte	'TM_ERR_DIMS',0,6,10
+	.byte	'TM_ERR_TODO',0,7,10
+	.byte	'TM_ERR_MDLTYPE',0,8,10
+	.byte	'TM_ERR_KSIZE',0,9,0,2
+	.byte	'unsigned int',0,4,7,2
+	.byte	'unsigned char',0,1,8,2
+	.byte	'unsigned short int',0,2,7,11,8
+	.word	416
+	.byte	12,3,0,11,28
+	.word	399
+	.byte	12,27,0,11,64
+	.word	399
+	.byte	12,63,0,13,2,151,1,9,128,1,14
+	.byte	'magic',0
+	.word	383
+	.byte	4,2,35,0,14
+	.byte	'mdl_type',0
+	.word	399
+	.byte	1,2,35,4,14
+	.byte	'out_deq',0
+	.word	399
+	.byte	1,2,35,5,14
+	.byte	'input_cnt',0
+	.word	416
+	.byte	2,2,35,6,14
+	.byte	'output_cnt',0
+	.word	416
+	.byte	2,2,35,8,14
+	.byte	'layer_cnt',0
+	.word	416
+	.byte	2,2,35,10,14
+	.byte	'buf_size',0
+	.word	383
+	.byte	4,2,35,12,14
+	.byte	'sub_size',0
+	.word	383
+	.byte	4,2,35,16,14
+	.byte	'in_dims',0
+	.word	438
+	.byte	8,2,35,20,14
+	.byte	'out_dims',0
+	.word	438
+	.byte	8,2,35,28,14
+	.byte	'reserve',0
+	.word	447
+	.byte	28,2,35,36,14
+	.byte	'layers_body',0
+	.word	456
+	.byte	64,2,35,64,0
+.L39:
+	.byte	4
+	.word	465
+.L42:
+	.byte	4
+	.word	416
+.L50:
+	.byte	4
+	.word	399
+	.byte	2
+	.byte	'float',0,4,4,13,2,190,1,9,48,14
+	.byte	'type',0
+	.word	416
+	.byte	2,2,35,0,14
+	.byte	'is_out',0
+	.word	416
+	.byte	2,2,35,2,14
+	.byte	'size',0
+	.word	383
+	.byte	4,2,35,4,14
+	.byte	'in_oft',0
+	.word	383
+	.byte	4,2,35,8,14
+	.byte	'out_oft',0
+	.word	383
+	.byte	4,2,35,12,14
+	.byte	'in_dims',0
+	.word	438
+	.byte	8,2,35,16,14
+	.byte	'out_dims',0
+	.word	438
+	.byte	8,2,35,24,14
+	.byte	'in_s',0
+	.word	705
+	.byte	4,2,35,32,14
+	.byte	'in_zp',0
+	.word	169
+	.byte	4,2,35,36,14
+	.byte	'out_s',0
+	.word	705
+	.byte	4,2,35,40,14
+	.byte	'out_zp',0
+	.word	169
+	.byte	4,2,35,44,0
+.L54:
+	.byte	4
+	.word	714
+	.byte	11,4
+	.word	399
+	.byte	12,3,0,13,2,206,1,9,80,14
+	.byte	'h',0
+	.word	714
+	.byte	48,2,35,0,14
+	.byte	'kernel_w',0
+	.word	399
+	.byte	1,2,35,48,14
+	.byte	'kernel_h',0
+	.word	399
+	.byte	1,2,35,49,14
+	.byte	'stride_w',0
+	.word	399
+	.byte	1,2,35,50,14
+	.byte	'stride_h',0
+	.word	399
+	.byte	1,2,35,51,14
+	.byte	'dilation_w',0
+	.word	399
+	.byte	1,2,35,52,14
+	.byte	'dilation_h',0
+	.word	399
+	.byte	1,2,35,53,14
+	.byte	'act',0
+	.word	416
+	.byte	2,2,35,54,14
+	.byte	'pad',0
+	.word	898
+	.byte	4,2,35,56,14
+	.byte	'depth_mul',0
+	.word	383
+	.byte	4,2,35,60,14
+	.byte	'reserve',0
+	.word	383
+	.byte	4,2,35,64,14
+	.byte	'ws_oft',0
+	.word	383
+	.byte	4,2,35,68,14
+	.byte	'w_oft',0
+	.word	383
+	.byte	4,2,35,72,14
+	.byte	'b_oft',0
+	.word	383
+	.byte	4,2,35,76,0
+.L61:
+	.byte	4
+	.word	907
+	.byte	13,2,235,1,9,64,14
+	.byte	'h',0
+	.word	714
+	.byte	48,2,35,0,14
+	.byte	'ws_oft',0
+	.word	383
+	.byte	4,2,35,48,14
+	.byte	'w_oft',0
+	.word	383
+	.byte	4,2,35,52,14
+	.byte	'b_oft',0
+	.word	383
+	.byte	4,2,35,56,14
+	.byte	'reserve',0
+	.word	383
+	.byte	4,2,35,60,0
+.L63:
+	.byte	4
+	.word	1150
+	.byte	2
+	.byte	'short int',0,2,5,15
+	.byte	'__wchar_t',0,3,1,1
+	.word	1236
+	.byte	15
+	.byte	'__size_t',0,3,1,1
+	.word	383
+	.byte	16,1,4
+	.word	1284
+	.byte	15
+	.byte	'__codeptr',0,3,1,1
+	.word	1286
+	.byte	15
+	.byte	'__intptr_t',0,3,1,1
+	.word	169
+	.byte	15
+	.byte	'__uintptr_t',0,3,1,1
+	.word	383
+	.byte	2
+	.byte	'char',0,1,6,15
+	.byte	'int8_t',0,4,241,1,41
+	.word	1348
+	.byte	15
+	.byte	'uint8_t',0,4,242,1,41
+	.word	399
+	.byte	15
+	.byte	'uint16_t',0,4,246,1,41
+	.word	416
+	.byte	15
+	.byte	'int32_t',0,4,253,1,41
+	.word	169
+	.byte	15
+	.byte	'uint32_t',0,4,254,1,41
+	.word	383
+	.byte	15
+	.byte	'_iob_flag_t',0,1,82,25
+	.word	416
+	.byte	15
+	.byte	'mtype_t',0,2,41,21
+	.word	1348
+	.byte	15
+	.byte	'zptype_t',0,2,45,21
+	.word	169
+	.byte	15
+	.byte	'sctype_t',0,2,95,15
+	.word	705
+	.byte	15
+	.byte	'tm_err_t',0,2,110,2
+	.word	234
+	.byte	15
+	.byte	'tm_mdlbin_t',0,2,164,1,2
+	.word	465
+	.byte	15
+	.byte	'tml_head_t',0,2,204,1,2
+	.word	714
+.L66:
+	.byte	11,24
+	.word	189
+	.byte	12,5,0
+.L67:
+	.byte	11,28
+	.word	189
+	.byte	12,6,0,11,28
+	.word	169
+	.byte	12,6,0
+.L68:
+	.byte	3
+	.word	1588
+	.byte	0
+	.sdecl	'.debug_abbrev',debug
+	.sect	'.debug_abbrev'
+.L24:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,16,6,0,0,2,36,0,3,8,11,15,62,15,0,0,3,38,0,73,19,0,0,4,15,0,73,19
+	.byte	0,0,5,55,0,73,19,0,0,6,46,1,3,8,58,15,59,15,57,15,73,19,54,15,39,12,63,12,60,12,0,0,7,5,0,58,15,59,15
+	.byte	57,15,73,19,0,0,8,24,0,58,15,59,15,57,15,0,0,9,4,1,58,15,59,15,57,15,11,15,0,0,10,40,0,3,8,28,13,0,0,11
+	.byte	1,1,11,15,73,19,0,0,12,33,0,47,15,0,0,13,19,1,58,15,59,15,57,15,11,15,0,0,14,13,0,3,8,73,19,11,15,56,9
+	.byte	0,0,15,22,0,3,8,58,15,59,15,57,15,73,19,0,0,16,21,0,54,15,0,0,0
+	.sdecl	'.debug_line',debug
+	.sect	'.debug_line'
+.L25:
+	.word	.L92-.L91
+.L91:
+	.half	3
+	.word	.L94-.L93
+.L93:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1
+	.byte	'D:\\IDE\\Infineon\\AURIX-Studio-1.10.2\\AURIX-Studio-1.10.6\\tools\\Compilers\\Tasking_1.1r8\\ctc\\include\\',0
+	.byte	'D:\\\\Project\\\\Infineon\\\\LQ_297_IMU\\\\Src\\\\Userbuild\\\\bpnn\\\\include',0,0
+	.byte	'stdio.h',0,1,0,0
+	.byte	'tinymaix.h',0,2,0,0
+	.byte	'../Src/Userbuild/bpnn/src/tm_stat.c',0,0,0,0
+	.byte	'stdint.h',0,1,0,0,0
+.L94:
+.L92:
+	.sdecl	'.debug_info',debug,cluster('tm_stat')
+	.sect	'.debug_info'
+.L26:
+	.word	531
+	.half	3
+	.word	.L27
+	.byte	4,1
+	.byte	'../Src/Userbuild/bpnn/src/tm_stat.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'D:\\Project\\Infineon\\LQ_297_IMU\\Debug\\',0,12,1
+	.word	.L29,.L28
+	.byte	2
+	.word	.L22
+	.byte	3
+	.byte	'tm_stat',0,1,45,10
+	.word	.L37
+	.byte	1,1,1
+	.word	.L21,.L38,.L20
+	.byte	4
+	.byte	'b',0,1,45,31
+	.word	.L39,.L40
+	.byte	5
+	.word	.L21,.L38
+	.byte	5
+	.word	.L41,.L38
+	.byte	6
+	.byte	'idim',0,1,51,15
+	.word	.L42,.L43
+	.byte	5
+	.word	.L44,.L38
+	.byte	6
+	.byte	'odim',0,1,53,15
+	.word	.L42,.L45
+	.byte	5
+	.word	.L46,.L38
+	.byte	6
+	.byte	'sum_param',0,1,65,9
+	.word	.L47,.L48
+	.byte	6
+	.byte	'sum_ops',0,1,66,9
+	.word	.L47,.L49
+	.byte	6
+	.byte	'layer_body',0,1,67,13
+	.word	.L50,.L51
+	.byte	6
+	.byte	'layer_i',0,1,68,9
+	.word	.L47,.L52
+	.byte	5
+	.word	.L3,.L53
+	.byte	6
+	.byte	'h',0,1,70,21
+	.word	.L54,.L55
+	.byte	5
+	.word	.L56,.L57
+	.byte	6
+	.byte	'memout',0,1,78,17
+	.word	.L47,.L58
+	.byte	5
+	.word	.L59,.L57
+	.byte	6
+	.byte	'ops',0,1,80,17
+	.word	.L47,.L60
+	.byte	5
+	.word	.L5,.L6
+	.byte	6
+	.byte	'l',0,1,83,34
+	.word	.L61,.L62
+	.byte	0,5
+	.word	.L7,.L8
+	.byte	6
+	.byte	'l',0,1,94,27
+	.word	.L63,.L64
+	.byte	0,5
+	.word	.L9,.L10
+	.byte	6
+	.byte	'l',0,1,103,34
+	.word	.L61,.L65
+	.byte	0,0,0,0,0,0,0,0,0,0
+	.sdecl	'.debug_abbrev',debug,cluster('tm_stat')
+	.sect	'.debug_abbrev'
+.L27:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,73,16
+	.byte	54,15,39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,1,17,1,18,1,0,0,6
+	.byte	52,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,0
+	.sdecl	'.debug_line',debug,cluster('tm_stat')
+	.sect	'.debug_line'
+.L28:
+	.word	.L96-.L95
+.L95:
+	.half	3
+	.word	.L98-.L97
+.L97:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../Src/Userbuild/bpnn/src/tm_stat.c',0,0,0,0,0
+.L98:
+	.byte	5,10,7,0,5,2
+	.word	.L21
+	.byte	3,44,1,5,12,9
+	.half	.L71-.L21
+	.byte	3,2,1,5,36,9
+	.half	.L99-.L71
+	.byte	3,1,1,5,62,9
+	.half	.L100-.L99
+	.byte	1,5,60,9
+	.half	.L101-.L100
+	.byte	1,5,48,9
+	.half	.L102-.L101
+	.byte	1,5,60,9
+	.half	.L103-.L102
+	.byte	1,5,12,9
+	.half	.L104-.L103
+	.byte	1,5,30,9
+	.half	.L105-.L104
+	.byte	3,1,1,5,12,9
+	.half	.L106-.L105
+	.byte	1,5,60,9
+	.half	.L107-.L106
+	.byte	3,1,1,5,74,9
+	.half	.L108-.L107
+	.byte	1,5,89,9
+	.half	.L109-.L108
+	.byte	1,5,12,9
+	.half	.L110-.L109
+	.byte	1,5,48,9
+	.half	.L41-.L110
+	.byte	3,2,1,5,56,9
+	.half	.L111-.L41
+	.byte	1,5,64,9
+	.half	.L112-.L111
+	.byte	1,5,72,9
+	.half	.L113-.L112
+	.byte	1,5,12,9
+	.half	.L114-.L113
+	.byte	1,5,49,9
+	.half	.L44-.L114
+	.byte	3,2,1,5,57,9
+	.half	.L115-.L44
+	.byte	1,5,65,9
+	.half	.L116-.L115
+	.byte	1,5,73,9
+	.half	.L117-.L116
+	.byte	1,5,12,9
+	.half	.L118-.L117
+	.byte	1,5,10,9
+	.half	.L119-.L118
+	.byte	3,3,1,5,22,9
+	.half	.L120-.L119
+	.byte	1,5,12,9
+	.half	.L121-.L120
+	.byte	3,127,1,9
+	.half	.L122-.L121
+	.byte	3,3,1,9
+	.half	.L123-.L122
+	.byte	3,1,1,5,13,9
+	.half	.L124-.L123
+	.byte	3,2,1,5,21,9
+	.half	.L125-.L124
+	.byte	1,5,29,9
+	.half	.L126-.L125
+	.byte	1,5,49,9
+	.half	.L127-.L126
+	.byte	1,5,57,9
+	.half	.L128-.L127
+	.byte	1,5,52,9
+	.half	.L129-.L128
+	.byte	1,5,65,9
+	.half	.L130-.L129
+	.byte	1,5,60,9
+	.half	.L131-.L130
+	.byte	1,5,68,9
+	.half	.L132-.L131
+	.byte	1,5,34,9
+	.half	.L133-.L132
+	.byte	1,5,12,9
+	.half	.L134-.L133
+	.byte	3,127,1,5,19,9
+	.half	.L46-.L134
+	.byte	3,4,1,9
+	.half	.L72-.L46
+	.byte	3,1,1,5,38,9
+	.half	.L73-.L72
+	.byte	3,1,1,5,17,9
+	.half	.L74-.L73
+	.byte	3,2,1,5,44,9
+	.half	.L75-.L74
+	.byte	1,5,9,9
+	.half	.L3-.L75
+	.byte	3,2,1,9
+	.half	.L79-.L3
+	.byte	3,1,1,5,13,9
+	.half	.L135-.L79
+	.byte	3,5,1,5,9,9
+	.half	.L136-.L135
+	.byte	1,5,37,7,9
+	.half	.L56-.L136
+	.byte	3,1,1,5,52,9
+	.half	.L137-.L56
+	.byte	1,5,40,9
+	.half	.L138-.L137
+	.byte	1,5,67,9
+	.half	.L139-.L138
+	.byte	1,5,55,9
+	.half	.L140-.L139
+	.byte	1,5,28,9
+	.half	.L80-.L140
+	.byte	3,1,1,5,55,9
+	.half	.L141-.L80
+	.byte	1,5,53,9
+	.half	.L142-.L141
+	.byte	1,5,37,9
+	.half	.L143-.L142
+	.byte	1,5,53,9
+	.half	.L144-.L143
+	.byte	1,5,35,9
+	.half	.L145-.L144
+	.byte	1,5,23,9
+	.half	.L146-.L145
+	.byte	1,5,21,9
+	.half	.L59-.L146
+	.byte	3,2,1,5,18,9
+	.half	.L147-.L59
+	.byte	3,1,1,9
+	.half	.L148-.L147
+	.byte	3,8,1,9
+	.half	.L149-.L148
+	.byte	3,3,1,9
+	.half	.L150-.L149
+	.byte	3,6,1,9
+	.half	.L151-.L150
+	.byte	3,3,1,5,32,9
+	.half	.L5-.L151
+	.byte	3,110,1,5,29,9
+	.half	.L152-.L5
+	.byte	1,5,46,9
+	.half	.L153-.L152
+	.byte	1,5,43,9
+	.half	.L154-.L153
+	.byte	1,5,69,9
+	.half	.L155-.L154
+	.byte	1,5,57,9
+	.half	.L156-.L155
+	.byte	1,5,17,9
+	.half	.L81-.L156
+	.byte	3,1,1,9
+	.half	.L157-.L81
+	.byte	3,4,1,5,34,9
+	.half	.L6-.L157
+	.byte	3,2,1,5,50,9
+	.half	.L158-.L6
+	.byte	1,5,38,9
+	.half	.L159-.L158
+	.byte	1,5,66,9
+	.half	.L160-.L159
+	.byte	1,5,54,9
+	.half	.L82-.L160
+	.byte	1,5,17,9
+	.half	.L161-.L82
+	.byte	3,1,1,5,35,9
+	.half	.L7-.L161
+	.byte	3,3,1,5,51,9
+	.half	.L162-.L7
+	.byte	1,5,39,9
+	.half	.L83-.L162
+	.byte	1,5,17,9
+	.half	.L163-.L83
+	.byte	3,1,1,9
+	.half	.L164-.L163
+	.byte	3,2,1,5,37,9
+	.half	.L8-.L164
+	.byte	3,2,1,5,24,9
+	.half	.L165-.L8
+	.byte	1,5,17,9
+	.half	.L84-.L165
+	.byte	3,1,1,5,32,9
+	.half	.L9-.L84
+	.byte	3,3,1,5,29,9
+	.half	.L166-.L9
+	.byte	1,5,46,9
+	.half	.L167-.L166
+	.byte	1,5,43,9
+	.half	.L168-.L167
+	.byte	1,5,57,9
+	.half	.L169-.L168
+	.byte	1,5,17,9
+	.half	.L85-.L169
+	.byte	3,1,1,9
+	.half	.L170-.L85
+	.byte	3,4,1,5,21,9
+	.half	.L10-.L170
+	.byte	3,2,1,5,17,9
+	.half	.L86-.L10
+	.byte	3,1,1,5,21,9
+	.half	.L11-.L86
+	.byte	3,2,1,5,70,9
+	.half	.L171-.L11
+	.byte	3,1,1,5,92,9
+	.half	.L172-.L171
+	.byte	1,5,90,9
+	.half	.L173-.L172
+	.byte	1,5,79,9
+	.half	.L174-.L173
+	.byte	1,5,90,9
+	.half	.L175-.L174
+	.byte	1,5,28,9
+	.half	.L176-.L175
+	.byte	3,1,1,5,44,9
+	.half	.L177-.L176
+	.byte	1,5,60,9
+	.half	.L178-.L177
+	.byte	1,5,18,9
+	.half	.L179-.L178
+	.byte	3,1,1,5,29,9
+	.half	.L180-.L179
+	.byte	1,5,41,9
+	.half	.L181-.L180
+	.byte	1,5,68,9
+	.half	.L182-.L181
+	.byte	1,5,66,9
+	.half	.L183-.L182
+	.byte	1,5,50,9
+	.half	.L184-.L183
+	.byte	1,5,66,9
+	.half	.L185-.L184
+	.byte	1,5,48,9
+	.half	.L186-.L185
+	.byte	1,5,34,9
+	.half	.L187-.L186
+	.byte	3,1,1,5,17,9
+	.half	.L188-.L187
+	.byte	1,5,20,9
+	.half	.L189-.L188
+	.byte	3,125,1,5,30,9
+	.half	.L190-.L189
+	.byte	3,4,1,5,20,9
+	.half	.L191-.L190
+	.byte	1,5,27,9
+	.half	.L57-.L191
+	.byte	3,123,1,5,20,9
+	.half	.L4-.L57
+	.byte	3,7,1,5,13,9
+	.half	.L192-.L4
+	.byte	1,5,25,9
+	.half	.L17-.L192
+	.byte	3,2,1,5,20,9
+	.half	.L193-.L17
+	.byte	1,5,53,9
+	.half	.L53-.L193
+	.byte	3,74,1,5,33,9
+	.half	.L2-.L53
+	.byte	1,5,44,9
+	.half	.L194-.L2
+	.byte	1,5,9,7,9
+	.half	.L195-.L194
+	.byte	3,57,1,5,19,9
+	.half	.L196-.L195
+	.byte	1,5,18,9
+	.half	.L197-.L196
+	.byte	1,5,27,9
+	.half	.L198-.L197
+	.byte	1,5,35,9
+	.half	.L90-.L198
+	.byte	1,5,34,9
+	.half	.L199-.L90
+	.byte	1,5,48,9
+	.half	.L200-.L199
+	.byte	1,5,62,9
+	.half	.L201-.L200
+	.byte	1,5,59,9
+	.half	.L202-.L201
+	.byte	1,5,74,9
+	.half	.L203-.L202
+	.byte	1,5,73,9
+	.half	.L204-.L203
+	.byte	1,5,12,9
+	.half	.L205-.L204
+	.byte	3,127,1,9
+	.half	.L206-.L205
+	.byte	3,2,1,5,5,9
+	.half	.L207-.L206
+	.byte	1,5,1,9
+	.half	.L18-.L207
+	.byte	3,1,1,7,9
+	.half	.L30-.L18
+	.byte	0,1,1
+.L96:
+	.sdecl	'.debug_ranges',debug,cluster('tm_stat')
+	.sect	'.debug_ranges'
+.L29:
+	.word	-1,.L21,0,.L30-.L21,0,0
+	.sdecl	'.debug_info',debug,cluster('mdl_type_str')
+	.sect	'.debug_info'
+.L31:
+	.word	194
+	.half	3
+	.word	.L32
+	.byte	4,1
+	.byte	'../Src/Userbuild/bpnn/src/tm_stat.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'D:\\Project\\Infineon\\LQ_297_IMU\\Debug\\',0,12,1,2
+	.word	.L22
+	.byte	3
+	.byte	'mdl_type_str',0,3,16,20
+	.word	.L66
+	.byte	5,3
+	.word	mdl_type_str
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('mdl_type_str')
+	.sect	'.debug_abbrev'
+.L32:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,2,9,0,0,0
+	.sdecl	'.debug_info',debug,cluster('tml_str_tbl')
+	.sect	'.debug_info'
+.L33:
+	.word	193
+	.half	3
+	.word	.L34
+	.byte	4,1
+	.byte	'../Src/Userbuild/bpnn/src/tm_stat.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'D:\\Project\\Infineon\\LQ_297_IMU\\Debug\\',0,12,1,2
+	.word	.L22
+	.byte	3
+	.byte	'tml_str_tbl',0,3,25,20
+	.word	.L67
+	.byte	5,3
+	.word	tml_str_tbl
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('tml_str_tbl')
+	.sect	'.debug_abbrev'
+.L34:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,2,9,0,0,0
+	.sdecl	'.debug_info',debug,cluster('tml_headsize_tbl')
+	.sect	'.debug_info'
+.L35:
+	.word	198
+	.half	3
+	.word	.L36
+	.byte	4,1
+	.byte	'../Src/Userbuild/bpnn/src/tm_stat.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'D:\\Project\\Infineon\\LQ_297_IMU\\Debug\\',0,12,1,2
+	.word	.L22
+	.byte	3
+	.byte	'tml_headsize_tbl',0,3,35,18
+	.word	.L68
+	.byte	5,3
+	.word	tml_headsize_tbl
+	.byte	0
+	.sdecl	'.debug_abbrev',debug,cluster('tml_headsize_tbl')
+	.sect	'.debug_abbrev'
+.L36:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,0,0,2,61,0,24,16,0,0,3,52,0,3,8,58,15,59,15,57,15,73,16,2,9,0,0,0
+	.sdecl	'.debug_loc',debug,cluster('tm_stat')
+	.sect	'.debug_loc'
+.L40:
+	.word	-1,.L21,0,.L70-.L21
+	.half	1
+	.byte	100
+	.word	.L71-.L21,.L38-.L21
+	.half	1
+	.byte	108
+	.word	.L78-.L21,.L79-.L21
+	.half	5
+	.byte	144,32,157,32,0
+	.word	0,0
+.L55:
+	.word	0,0
+.L43:
+	.word	0,0
+.L62:
+	.word	0,0
+.L64:
+	.word	0,0
+.L65:
+	.word	0,0
+.L51:
+	.word	-1,.L21,.L74-.L21,.L38-.L21
+	.half	1
+	.byte	111
+	.word	.L76-.L21,.L77-.L21
+	.half	1
+	.byte	95
+	.word	0,0
+.L52:
+	.word	-1,.L21,.L75-.L21,.L38-.L21
+	.half	1
+	.byte	90
+	.word	0,0
+.L58:
+	.word	-1,.L21,.L80-.L21,.L4-.L21
+	.half	1
+	.byte	91
+	.word	.L17-.L21,.L2-.L21
+	.half	1
+	.byte	91
+	.word	0,0
+.L45:
+	.word	0,0
+.L60:
+	.word	-1,.L21,.L81-.L21,.L6-.L21
+	.half	1
+	.byte	92
+	.word	.L82-.L21,.L7-.L21
+	.half	1
+	.byte	92
+	.word	.L83-.L21,.L8-.L21
+	.half	1
+	.byte	92
+	.word	.L84-.L21,.L9-.L21
+	.half	1
+	.byte	92
+	.word	.L85-.L21,.L10-.L21
+	.half	1
+	.byte	92
+	.word	.L86-.L21,.L4-.L21
+	.half	1
+	.byte	92
+	.word	.L17-.L21,.L2-.L21
+	.half	1
+	.byte	92
+	.word	0,0
+.L49:
+	.word	-1,.L21,.L73-.L21,.L38-.L21
+	.half	1
+	.byte	88
+	.word	.L89-.L21,.L90-.L21
+	.half	1
+	.byte	84
+	.word	0,0
+.L48:
+	.word	-1,.L21,.L72-.L21,.L38-.L21
+	.half	1
+	.byte	89
+	.word	.L87-.L21,.L88-.L21
+	.half	1
+	.byte	84
+	.word	0,0
+.L20:
+	.word	-1,.L21,0,.L69-.L21
+	.half	2
+	.byte	138,0
+	.word	.L69-.L21,.L38-.L21
+	.half	3
+	.byte	138,208,0
+	.word	.L38-.L21,.L38-.L21
+	.half	2
+	.byte	138,0
+	.word	0,0
+	.sdecl	'.debug_frame',debug
+	.sect	'.debug_frame'
+.L208:
+	.word	48
+	.word	-1
+	.byte	3,0,2,1,27,12,26,0,8,26,8,27,8,30,8,29,8,28,8,16,8,17,8,24,8,25,8,31,8,32,8,33,8,34,8,35,8,36,8,37,8,38
+	.byte	8,39
+	.sdecl	'.debug_frame',debug,cluster('tm_stat')
+	.sect	'.debug_frame'
+	.word	36
+	.word	.L208,.L21,.L38-.L21
+	.byte	4
+	.word	(.L69-.L21)/2
+	.byte	19,208,0,22,26,4,19,138,208,0,4
+	.word	(.L38-.L69)/2
+	.byte	19,0,8,26
+	; Module end
